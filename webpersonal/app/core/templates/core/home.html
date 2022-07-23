@@ -1,0 +1,141 @@
+{% extends 'core/base.html' %} 
+
+
+{% block title %}Portada{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/baner.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Carlos Flores </h1>
+<span class="subheading">Ingeniero de Sistemas</span>
+{% endblock %}
+
+{% block content %}
+<!--<div class="row"> 
+  <div class="col-lg-7 col-md-8">
+ <h2 class="section-heading">Carlos Flores</h2>   
+ <p>Nacido en... lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio.</p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit...</p>
+ <p>Nacido en... lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio.</p>
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit...</p>
+</div>
+<div class="col-lg-3 col-md-4 offset-lg-1">
+  <img class="img-fluid avatar" src="{% static 'core/img/miguel.jpg' %}" alt="">
+  </div>
+</div>-->
+
+ 
+<!-- desde aqui-->
+
+<main>
+
+   
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+         
+       <title>Placeholder</title> 
+       <img class="bd-placeholder-img rounded-circle" src="{% static 'core/img/sap.jpg' %}" alt="" width="140" height="140">
+    
+        <h2 class="fw-normal">SAP</h2>
+        <p>Es una de las herramientas de planificación de recursos empresariales (ERP) más utilizadas a nivel global. </p>
+        <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+       <img class="bd-placeholder-img rounded-circle" src="{% static 'core/img/bi.png' %}" alt="" width="140" height="140">
+       
+        <h2 class="fw-normal">BUSINESS INTELLIGENCE</h2>
+        <p>Es el conjunto de procesos requeridos para ofrecer una solución informática que nos permita analizar cómo está funcionando nuestra empresa.</p>
+        <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+<img class="bd-placeholder-img rounded-circle" src="{% static 'core/img/py.jpg' %}" alt="" width="140" height="140">
+        <h2 class="fw-normal">PYTHON DJANGO</h2>
+        <p>Django es un framework web extremadamente popular y completamente funcional, escrito en Python.</p>
+        <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Bienvenidos  a este espacio  de 
+ <span class="text-muted"> aprendizaje y conocimiento</span></h2>
+        <p class="lead">Te presentare contenido innovador sobre la programación y el analisis de datos .
+Mi objetivo es compartir con ustedes diferente informacion educativa que se nutra con más y mejores contenidos.   </p>
+      </div>
+      <div class="col-md-5">
+          <!--  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"   alt="" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
+           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="{% static 'core/img/ima.jpg' %}" alt=""> 
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">No podemos parar de aprender <span class="text-muted">la tecnologia no se detiene</span></h2>
+        <p class="lead">Vamos a compartir por este medio distinto tipos de contenidos relacionado a la tecnologia de la informacion como C++ , python , qliksense, SAP , Power Bi ,Maching Learning , Big Data , Hacking etico entre otros .
+ </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="{% static 'core/img/cod.jpg' %}" alt=""> 
+
+      </div>
+    </div>
+
+     
+    
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+ 
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+     
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  {% endblock %}

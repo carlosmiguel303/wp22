@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %} 
+
+
+
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/cpu.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+<div class="row"> 
+  <div class="col-lg-3 col-md-4 offset-lg-1">
+  <img class="img-fluid avatar" src="{% static 'core/img/miguel.jpg' %}" alt="">
+  </div>
+  <div class="col-lg-7 col-md-8">
+ <h2 class="section-heading">Carlos Flores</h2>   
+ <p>Consultor Técnico ABAP con experiencia en proyectos SAP, integración de procesos con otros sistemas desde SAP tanto In como OUT.
+Creación de programas Z, tablas, vistas, POO, exits ,  Dynpros , Alv oo , Rfc’s.
+
+Experiencia en el análisis de procesos en proyectos de Business Intelligence y Business Analytics y con la ambición de explorar lo desconocido en el extenso mundo de la informatica.
+
+</p>
+</div>
+</div>
+  {% endblock %}
+
